@@ -6,7 +6,7 @@ app.directive('nodemonoLogo', function() {
 
       scope.installChromeExt = () => {
         console.log(`installing Nodemono chrome extension...`)
-        chrome.webstore.install('https://chrome.google.com/webstore/detail/mihcahmgecmbnbcchbopgniflfhgnkff', () => {
+        chrome.webstore.install('https://chrome.google.com/webstore/detail/mashup/dhncgflfkmflhloldkciigdfmnejbida', () => {
           alert('Installed!')
         }, (whyStr) => {
           console.log(whyStr)
@@ -17,5 +17,3 @@ app.directive('nodemonoLogo', function() {
     }
   };
 });
-
-//sasd
