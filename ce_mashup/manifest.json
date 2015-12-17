@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "background": {
+    "persistent": false,
+    "scripts": ["jquery.min.js", "background.js"]
+  },
+  "name": "Nodemono",
+  "description": "Extension tool transform webpage to crawlify states",
+  "version": "1.0",
+  "icons": {
+    "64": "icon_64.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    // "default_popup": "kimono-toolbar.html",
+    "default_title": "Nodemono"
+  },
+  "content_scripts": [{
+    "js": ["jquery.min.js"],
+    "matches": ["http://*/*", "https://*/*"]
+  }],
+
+  "web_accessible_resources": [
+    "template/*",
+    "css/style.css",
+    "selectorgadget/*",
+    "*",
+    "imgs/back.png"
+  ],
+  "permissions": [
+    "tabs",
+    "notifications",
+    "activeTab",
+    "https://*/*",
+    "http://*/*"
+  ]
+}
