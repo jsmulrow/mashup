@@ -2,8 +2,6 @@
 
 > Turn websites into structured APIs
 
----
-
 ## Installation
 
 ### Clone
@@ -45,10 +43,10 @@ HTTP server patiently listening on port (8080)
 ### Step 1
 
 - **Option 1**
-    - Fork this repo!
+    - 🍴 Fork this repo!
 
 - **Option 2**
-    - Clone this repo to your local machine using `https://github.com/jsmulrow/mashup.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/jsmulrow/mashup.git`
 
 ### Step 2
 
