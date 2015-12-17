@@ -1,14 +1,14 @@
-# Mashup 
+# Mashup: <a href="http://mashup-app.herokuapp.com">mashup-app.herokuapp.com</a>
 
 > Turn websites into structured APIs
 
-##<a href="mashup-app.herokuapp.com">mashup-app.herokuapp.com</a>
+##<a href="http://mashup-app.herokuapp.com">mashup-app.herokuapp.com</a>
 
 ## How to use Mashup
-- Go to <a href="mashup-app.herokuapp.com">mashup-app.herokuapp.com</a> and register for a profile
+- Go to <a href="http://mashup-app.herokuapp.com">mashup-app.herokuapp.com</a> and register for a profile
 - Install our chrome extension
 - Go to a website and use the extension to select elements you want to make an API route for and save it (after signing in to your profile)
-- Go back to <a href="mashup-app.herokuapp.com">mashup-app.herokuapp.com</a> and manage all your API routes!
+- Go back to <a href="http://mashup-app.herokuapp.com">mashup-app.herokuapp.com</a> and manage all your API routes!
 - Combine and transform data from different routes by making a pipe and applying filters
 - Use the url on each route or pipe profile page to have Mashup collect the newest data from the websites you selected and return it to you as JSON for use in your application
 
