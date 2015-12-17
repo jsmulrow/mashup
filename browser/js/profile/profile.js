@@ -12,8 +12,6 @@ app.config(($stateProvider) => {
       $scope.routes = routes;
       $scope.pipes = pipes;
       $scope.user = user;
-      console.log('the user', user);
-      console.log('the routes and pipes', routes, pipes);
     }
   });
 });

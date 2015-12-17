@@ -11,6 +11,4 @@ app.config(function ($stateProvider) {
 
 app.controller('AboutController', function () {
 
-    // $scope.images = _.shuffle(something);
-
 });
