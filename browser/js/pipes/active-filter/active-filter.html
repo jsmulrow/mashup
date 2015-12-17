@@ -2,7 +2,6 @@
 	<span class="tag label label-info">
 		{{filter.name}}
 	</span> 
-	<!-- <a class="btn btn-xs btn-danger" ng-click="deselect({filter: filter})">X</a> -->
 	<a class="btn btn-xs btn-warning" ng-click="toggleCustomize()">Edit</a>
 </p>
 <p>Description: {{filter.description}}</p>
@@ -13,7 +12,6 @@
 	</p>
 	<span>Parameters: 
 		<span ng-repeat="param in filter.parameters">
-			<!-- hacky solution to scope issue from ng-repeat -->
 			<input type="text" ng-model="filter.parameters[$index]">
 		</span>
 	</span>

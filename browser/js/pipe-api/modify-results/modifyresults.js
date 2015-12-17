@@ -18,13 +18,3 @@ app.config(($stateProvider) => {
     }
   })
 })
-
-
-// let defaultFilterFn = (data) => {
-//   // filter functions are passed the whole API response object
-//   // you may manipulate or add to this data as you want
-//
-//   /* YOUR CODE HERE */
-//
-//   return data
-// }

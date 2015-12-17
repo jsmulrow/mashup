@@ -5,7 +5,6 @@ app.config(($stateProvider) => {
     controller: ($scope) => {
     	$scope.exportOptions = [
         { name: 'JSON', endpoint:'json' },
-        // { name: 'CSV', endpoint: 'csv' },
         { name: 'RSS', endpoint: 'rss' }
       ];
     }

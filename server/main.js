@@ -22,7 +22,6 @@ var startServer = function() {
     server.on('request', app); // Attach the Express application.
     server.listen(PORT, function(err) {
         if (err) console.log(err);
-        // console.log("You can use following command to start https server: npm --server=\"HTTPS\" run-script start");
         console.log(chalk.blue('Server started on port', chalk.magenta(PORT)));
     });
 };

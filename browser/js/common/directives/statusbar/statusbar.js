@@ -6,8 +6,6 @@ app.directive('statusBar', () => {
       alerts: '=alerts'
     },
     link: (scope, element, attrs, ngModelCtrl) => {
-      // don't know how to do this
-
       // alert goes away after 5 seconds
       setTimeout(() => {
         let a = scope.alerts.shift()

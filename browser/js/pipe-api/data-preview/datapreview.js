@@ -26,7 +26,6 @@ app.config(($stateProvider) => {
           };
         };
 
-      // $scope.resultTypes = ["CSV", "RSS", "JSON"];
       $scope.activeResultType = "CSV";
 
       $scope.setActiveType = (type) =>{
@@ -34,7 +33,6 @@ app.config(($stateProvider) => {
           $scope.dataPreview = angular.toJson($scope.data, true);
         } else if (type === "RSS") {
           $scope.dataPreview = parseXML($scope.data);
-          // $scope.dataPreview = "sorry, we don't support RSS yet";
         }
         $scope.activeResultType = type;
       };

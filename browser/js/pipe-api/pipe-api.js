@@ -54,13 +54,9 @@ app.config(($stateProvider) => {
           $scope.pipe.DSSave() // save the newly edited element
             .then(newpipe => {
               console.log(`successfully saved pipe ${newpipe.name}`)
-              // if (!$rootScope.alerts) $rootScope.alerts = []
-              // $rootScope.alerts.push({ name: 'saving route', msg: 'successful'})
             })
             .catch((e) => {
               console.log(`was not able to save pipe ${pipe.name}: ${e}`)
-              // if (!$rootScope.alerts) $rootScope.alerts = []
-              // $rootScope.alerts.push({ name: 'saving route', msg: 'unsuccessful' })
             });
         }
 
