@@ -5,19 +5,23 @@ var chalk = require('chalk');
 var startDb = require('./db');
 // Create a node server instance! cOoL!
 var app = require('./app');
-var secureConfig = require('../keys').https;
 var server = require('http').createServer();
 // var secureServer = require('https').createServer(secureConfig);
 var PORT = process.env.PORT || 1337;
-var HTTPS_PORT = 1443;
+
+// for https
+// var secureConfig = require('../keys').https;
+// var HTTPS_PORT = 1443;
+
 //to start HTTPS server run command: npm --server="HTTPS" run-script start
 var startServer = function() {
-    //start both http and https server
+    // start https server (disabled)
     // secureServer.listen(HTTPS_PORT, function(err) {
     //     if (err) console.log(err);
     //     console.log(chalk.blue('HTTPS server patiently listening on port', chalk.magenta(HTTPS_PORT)));
     // });
     // secureServer.on('request', app);
+    // start http server
     server.on('request', app); // Attach the Express application.
     server.listen(PORT, function(err) {
         if (err) console.log(err);
