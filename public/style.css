@@ -134,21 +134,21 @@ status-bar {
     margin-bottom: 1px;
     padding-left: 10px; }
 
-#signin-container {
-  width: 30%;
+#register-container {
+  width: 40%;
   top: 10vh;
   padding: 10px;
   float: none;
   box-shadow: 5px 5px 19px #888888; }
-  #signin-container oauth-button {
-    margin-right: 20px;
+  #register-container oauth-button {
     width: 100%; }
+    #register-container oauth-button a {
+      margin-bottom: 10px; }
 
-#signin-submit {
+#register-submit {
   width: 100%; }
 
-#signup-btns {
-  float: none;
+#oauth-container {
   text-align: center; }
 
 #main-title {
@@ -241,8 +241,11 @@ status-bar {
 #login-submit {
   width: 100%; }
 
-#signup-btn {
+#register-btn {
   width: 100%; }
+
+.oauth-container {
+  text-align: center; }
 
 #invalid {
   margin-top: 10px;

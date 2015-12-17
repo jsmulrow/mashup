@@ -1,5 +1,5 @@
 <section class="container col-lg-8 col-xs-12" id="login-container">
-    <form id="login-form" name="loginForm" ng-submit="sendLogin(login)" class="container col-lg-6 col-xs-12">
+    <form id="login-form" name="loginForm" ng-submit="sendLogin(login)" class="container col-lg-7 col-xs-12">
         <div class="form-group">
             <label for="email">Email address:</label>
             <input type="text" ng-model="login.email" class="form-control" id="email" placeholder="Enter email">
@@ -17,7 +17,7 @@
 
     <div class="container col-lg-1 col-xs-12"></div>  
 
-    <div class="container col-lg-4 col-xs-12">
+    <div class="container col-lg-5 col-xs-12 oauth-container">
         <br>
         <oauth-button provider-name="Google"></oauth-button>
         <br>
@@ -31,5 +31,5 @@
     <label>
         Don't have an account?
     </label>
-    <a ui-sref="signup"> Sign up!</a>
+    <a ui-sref="register"> Sign up!</a>
 </div>

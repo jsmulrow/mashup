@@ -10,7 +10,7 @@
         <div class='nav navbar-right'>
           <div ng-if="!user">
             <button ui-sref="login" class="btn btn-primary btn-login">Login</button>
-            <button ui-sref="signup" class="btn btn-primary btn-login">Signup</button>
+            <button ui-sref="register" class="btn btn-primary btn-login">Register</button>
             <button ng-click="demo()" class="btn btn-primary btn-login">Demo</button>
           </div>
           <div ng-if='user' class='welcome'>
@@ -18,10 +18,6 @@
             <button ng-click='logout()' class='btn btn-primary btn-login'>Logout</button>
           </div>
         </div>
-
-<!--         <div class='nav navbar-right divider' ng-show="user" >
-          <span class='glyphicon glyphicon-search' ng-click='toggle()'></span>
-        </div> -->
 
         <div class='nav navbar-right'>
           <input ng-if='show && user' ng-enter='search()' class='form-control' id="searchbar" type='text' placeholder='search for something...'></input>

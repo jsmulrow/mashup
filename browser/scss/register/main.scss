@@ -1,20 +1,21 @@
-#signin-container{
-    width: 30%;
+#register-container{
+    width: 40%;
 	top: 10vh;
     padding: 10px;
     float: none;
     box-shadow: 5px 5px 19px #888888;
     oauth-button{
-    	margin-right: 20px;
     	width: 100%;
+        a {
+            margin-bottom: 10px; 
+        }
     }
 }
 
-#signin-submit{
+#register-submit{
 	width: 100%;
 }
 
-#signup-btns{
-	float: none;
+#oauth-container{
     text-align: center;
 }

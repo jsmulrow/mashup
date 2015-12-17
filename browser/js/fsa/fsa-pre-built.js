@@ -101,12 +101,9 @@
             });
         };
 
-
-        //added function for signup process
-        //what's Q for?
-        this.signup = function(credentials) {
+        this.register = function(credentials) {
             console.log("we are over here", credentials)
-            return $http.post('/signup', credentials)
+            return $http.post('/register', credentials)
                 .then(onSuccessfulLogin)
                 .catch(function() {
                     return $q.reject({

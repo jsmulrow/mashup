@@ -1,5 +1,5 @@
-<section class="container col-lg-6" id="signin-container">
-    <form name="signupForm" ng-submit="signup(credentials)">
+<section class="container col-lg-6 col-xs-12" id="register-container">
+    <form id="register-form" name="registerForm" ng-submit="register(credentials)" class="container col-xs-12">
         <div class="form-group">
             <label for="name">Your Name:</label>
             <input type="text" ng-model="credentials.name" class="form-control" placeholder="Enter your name">
@@ -15,15 +15,17 @@
             <input type="password" ng-model="credentials.password" class="form-control" id="login-password" placeholder="Password">
         </div>
 
-        <button type="submit" class="btn btn-primary" id="signin-submit">Sign up!</button>
+        <button type="submit" class="btn btn-primary" id="register-submit">Sign up!</button>
     </form>
 
     <hr>
 
-    <div class="container col-lg-6" id="signup-btns">
+    <div class="container col-xs-12 oauth-container">
+        <br>
         <oauth-button provider-name="Google"></oauth-button>
-        <br><br>   
+        <br>
         <oauth-button provider-name="Github"></oauth-button>
+        <br>
     </div>
 </section>
 

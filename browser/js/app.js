@@ -1,5 +1,5 @@
 'use strict';
-window.app = angular.module('NodemonoApp', ['ui.router', 'ui.bootstrap', 'fsaPreBuilt', 'js-data','ngClipboard', 'vAccordion']);
+window.app = angular.module('MashupApp', ['ui.router', 'ui.bootstrap', 'fsaPreBuilt', 'js-data','ngClipboard', 'vAccordion']);
 app.config(['ngClipProvider', function(ngClipProvider) {
     ngClipProvider.setPath("//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.1.6/ZeroClipboard.swf");
   }]);
