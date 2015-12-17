@@ -234,8 +234,9 @@ status-bar {
   float: none;
   box-shadow: 5px 5px 19px #888888; }
   #login-container oauth-button {
-    margin-right: 20px;
     width: 25px; }
+    #login-container oauth-button a {
+      margin-bottom: 10px; }
 
 #login-submit {
   width: 100%; }
@@ -258,7 +259,6 @@ status-bar {
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
-
   to {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -273,7 +273,6 @@ status-bar {
     -webkit-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
-
   to {
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -460,16 +459,19 @@ table#pipePreviewTable {
   font-size: 14px;
   font-weight: bolder;
   margin-top: 0; }
+
 #crawlsetup .strategy-selector .label {
   color: #969696;
   font-size: 10px;
   font-weight: lighter;
   padding: 0; }
+
 #crawlsetup .strategy-selector select {
   background: inherit;
   border-radius: 4px;
   padding: 2px;
   font-size: 14px; }
+
 #crawlsetup table#crawlstatustable {
   font-size: 14px; }
   #crawlsetup table#crawlstatustable td {
@@ -487,22 +489,28 @@ table#pipePreviewTable {
 #modify h4 {
   font-size: 14px;
   margin-top: 0; }
+
 #modify p {
   font-size: 10px; }
+
 #modify h5 {
   font-size: 10px; }
+
 #modify pre {
   height: 40vh; }
+
 #modify input {
   font-size: 10px;
   border: 1px solid #c9c9c9;
   height: 21px;
   padding: 2px;
   color: #f54344; }
+
 #modify .preview {
   font-size: 10px;
   background: #fcfcfc;
   color: #636363; }
+
 #modify #editor {
   height: 40vh; }
 
@@ -616,6 +624,7 @@ table#pipePreviewTable {
 
 .parameter-form * {
   color: black; }
+
 .parameter-form input {
   margin-left: 10px; }
 

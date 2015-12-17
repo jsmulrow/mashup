@@ -30,8 +30,6 @@ navbar {
           span {
             color: darken($nodemono-gray, 10%);
             cursor: pointer;
-
-            // &:hover { color: $nodemono-red; }
           }
         }
       }
@@ -88,7 +86,6 @@ navbar {
       span {
         cursor: pointer;
         &:hover { color: #E74C3C; }
-        // &:hover { color: $nodemono-red; }
       }
     }
     button {
