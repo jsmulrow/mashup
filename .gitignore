@@ -1,5 +1,4 @@
 .idea
-node_modules/
 npm-debug.log
 public/style.css
 public/main.js
@@ -9,5 +8,5 @@ practice.js
 pipes.research
 keys/
 
-!node_modules/angular-bootstrap/template/tabs/tabset.html
-!node_modules/angular-bootstrap/template/tabs/tab.html
+node_modules/*
+!node_modules/angular-bootstrap
