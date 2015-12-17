@@ -102,14 +102,25 @@
         };
 
         this.register = function(credentials) {
-            console.log("we are over here", credentials)
             return $http.post('/register', credentials)
                 .then(onSuccessfulLogin)
                 .catch(function() {
                     return $q.reject({
                         message: 'Invalid login credentials.'
                     });
-                })
+                });
+        };
+
+        this.demo = function() {
+            var guestCredentials = {
+                email: 'guest@user.com',
+                password: 'guest'
+            };
+            return $http.post('/login', guestCredentials)
+                .then(onSuccessfulLogin)
+                .catch(function () {
+                    return $q.reject({ message: 'Error starting demo.'})
+                });
         }
 
     });
