@@ -37,6 +37,32 @@ var wipeDB = function() {
     return Promise.all(promiseArr);
 };
 
+var seedUsers = function() {
+
+    var users = [{
+        name: 'Guest',
+        email: 'guest@user.com',
+        password: 'guest',
+        userKey: 'guestKey'
+    }, {
+        name: 'Jack Mulrow',
+        email: 'jack@mulrow.com',
+        password: 'jack',
+        userKey: 'jackKey'
+    }, {
+        name: 'Full Stack',
+        email: 'testing@fsa.com',
+        password: 'password',
+        userKey: 'fullKey'
+    }, {
+        name: 'Barack Obama',
+        email: 'obama@gmail.com',
+        password: 'potus',
+        userKey: 'obamaKey',
+    }];
+
+    return User.createAsync(users);
+};
 
 var seedDb = function() {
     // initialize variables so they can be accessed later
@@ -303,28 +329,6 @@ var seedDb = function() {
             // save the update
             return activeUser.save();
         });
-};
-
-var seedUsers = function() {
-
-    var users = [{
-        name: 'Jack Mulrow',
-        email: 'jack@mulrow.com',
-        password: 'jack',
-        userKey: 'jackKey'
-    }, {
-        name: 'Full Stack',
-        email: 'testing@fsa.com',
-        password: 'password',
-        userKey: 'fullKey'
-    }, {
-        name: 'Barack Obama',
-        email: 'obama@gmail.com',
-        password: 'potus',
-        userKey: 'obamaKey',
-    }];
-
-    return User.createAsync(users);
 };
 
 // create and save all filters to the db (dynamic)

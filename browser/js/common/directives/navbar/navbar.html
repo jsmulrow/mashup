@@ -11,6 +11,7 @@
           <div ng-if="!user">
             <button ui-sref="login" class="btn btn-primary btn-login">Login</button>
             <button ui-sref="signup" class="btn btn-primary btn-login">Signup</button>
+            <button ng-click="demo()" class="btn btn-primary btn-login">Demo</button>
           </div>
           <div ng-if='user' class='welcome'>
             <span class='navbar-text'>Welcome  <span ui-sref="profile({ id: user._id })">{{ user.name }}</span>!</span>

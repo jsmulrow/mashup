@@ -58,6 +58,11 @@ app.directive('navbar', function ($rootScope, $state, AuthService, AUTH_EVENTS) 
             $rootScope.$on(AUTH_EVENTS.logoutSuccess, removeUser);
             $rootScope.$on(AUTH_EVENTS.sessionTimeout, removeUser);
 
+            // sign in as mock user to demo app
+            scope.demo = () => {
+                AuthService.demo();
+            }
+
         }
 
     };
