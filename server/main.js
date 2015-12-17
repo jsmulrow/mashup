@@ -7,7 +7,7 @@ var startDb = require('./db');
 var app = require('./app');
 var server = require('http').createServer();
 // var secureServer = require('https').createServer(secureConfig);
-var PORT = process.env.PORT || 1337;
+var PORT = process.env.PORT || 8080;
 
 // for https
 // var secureConfig = require('../keys').https;
