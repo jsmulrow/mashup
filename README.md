@@ -2,24 +2,20 @@
 
 > Turn websites into structured APIs
 
-- Video coming soon
-
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
-
 ---
 
 ## Installation
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/alfonsosn/NodeMono2`
+- Clone this repo to your local machine using `https://github.com/jsmulrow/mashup`
 
 ### Setup
 
-- install npm and bower packages
+- install npm packages
 
 ```shell
-$ npm install && bower install
+$ npm install
 ```
 
 - gulp to build
@@ -32,7 +28,7 @@ $ gulp
 
 ```shell
 $ npm start
-HTTPS server patiently listening on port (some port number)
+HTTP server patiently listening on port (8080)
 ```
 
 ### Browser
@@ -49,10 +45,10 @@ HTTPS server patiently listening on port (some port number)
 ### Step 1
 
 - **Option 1**
-    - 🍴 Fork this repo!
+    - Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/alfonsosn/NodeMono2.git`
+    - Clone this repo to your local machine using `https://github.com/jsmulrow/mashup.git`
 
 ### Step 2
 
@@ -60,21 +56,21 @@ HTTPS server patiently listening on port (some port number)
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/alfonsosn/NodeMono2/compare/" target="_blank">`https://github.com/alfonsosn/NodeMono2/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/jsmulrow/mashup/compare/" target="_blank">`https://github.com/jsmulrow/mashup/compare/`</a>.
 
 ---
 
 ## Team
 
-| <a href="github.com/thang239" target="_blank">**Thang Nguyen**</a> | <a href="github.com/alfsonsosn" target="_blank">**Alfonso Enriquez**</a> | <a href="github.com/coayscue" target="_blank">**Christian Ayscue**</a> 
-| :---: |:---:| :---:|
-| [![thang239](https://avatars1.githubusercontent.com/u/11095933?v=3&s=200)](github.com/thang239)    | [![alfonsosn](https://avatars1.githubusercontent.com/u/7824950?v=3&s=200)](github.com/alfsonsosn) | [![coayscue](https://avatars2.githubusercontent.com/u/11601141?v=3&s=200)](github.com/coayscue)  | 
-| <a href="http://github.com/thang239" target="_blank">`github.com/thang239`</a> | <a href="http://github.com/alfonsosn" target="_blank">`github.com/alfsonsosn`</a> | <a href="http://github.com/coayscue" target="_blank">`github.com/coayscue`</a>
-
 | <a href="github.com/jsmulrow" target="_blank">**Jack Mulrow**</a> | <a href="github.com/willruggiano" target="_blank">**Will Ruggiano**</a> |
 | :---: |:---:| :---:|
 [![jsmulrow](https://avatars0.githubusercontent.com/u/11140174?v=3&s=200)](github.com/jsmulrow)    | [![willruggiano](https://avatars1.githubusercontent.com/u/11872440?v=3&s=200)](github.com/willruggiano)    |
 | <a href="http://github.com/jsmulrow" target="_blank">`github.com/jsmulrow`</a> | <a href="http://github.com/willruggiano" target="_blank">`github.com/willruggiano`</a> |
+
+| <a href="github.com/thang239" target="_blank">**Thang Nguyen**</a> | <a href="github.com/alfsonsosn" target="_blank">**Alfonso Enriquez**</a> | <a href="github.com/coayscue" target="_blank">**Christian Ayscue**</a> 
+| :---: |:---:| :---:|
+| [![thang239](https://avatars1.githubusercontent.com/u/11095933?v=3&s=200)](github.com/thang239)    | [![alfonsosn](https://avatars1.githubusercontent.com/u/7824950?v=3&s=200)](github.com/alfsonsosn) | [![coayscue](https://avatars2.githubusercontent.com/u/11601141?v=3&s=200)](github.com/coayscue)  | 
+| <a href="http://github.com/thang239" target="_blank">`github.com/thang239`</a> | <a href="http://github.com/alfonsosn" target="_blank">`github.com/alfsonsosn`</a> | <a href="http://github.com/coayscue" target="_blank">`github.com/coayscue`</a>
 
 ---
 
@@ -89,8 +85,8 @@ HTTPS server patiently listening on port (some port number)
 
 Reach out to us by:
 
-- Creating a new issue  <a href="https://github.com/alfonsosn/NodeMono2/issues/new" target="_blank">`https://github.com/alfonsosn/NodeMono2/issues/new`</a>
+- Creating a new issue  <a href="https://github.com/jsmulrow/mashup/issues/new" target="_blank">`https://github.com/jsmulrow/mashup/issues/new`</a>
 
 ---
 
-> Readme template from fellow fullstack ninja @<a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
+> Readme template from fellow fullstack alum @<a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
