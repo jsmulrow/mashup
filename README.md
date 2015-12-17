@@ -2,8 +2,6 @@
 
 > Turn websites into structured APIs
 
-##<a href="http://mashup-app.herokuapp.com">mashup-app.herokuapp.com</a>
-
 ## How to use Mashup
 - Go to <a href="http://mashup-app.herokuapp.com">mashup-app.herokuapp.com</a> and register for a profile
 - Install our chrome extension
