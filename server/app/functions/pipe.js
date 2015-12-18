@@ -207,47 +207,5 @@ function getPipeData(pipe) {
 		});
 }
 
-// test user filters
-// var dummyUserFilter = {
-// 	func: 'var t = arguments[1]; elem *= t; return elem;',
-// 	name: 'my function!',
-// 	parameters: [25],
-// 	description: 'a user made this function',
-// 	keys: [],
-// 	type: 'singleElem'
-// };
-// var dummyUserFilter2 = {
-// 	func: 'arr.push("hey from jack"); return arr;',
-// 	name: 'my function!',
-// 	parameters: [5],
-// 	description: 'a user made this function',
-// 	keys: [],
-// 	type: 'singleArr'
-// };
-// var dummyUserFilter3 = {
-// 	func: 'obj.a = obj.a.map(function(e) {return e + 20}); return obj',
-// 	name: 'my function!',
-// 	parameters: [5],
-// 	description: 'a user made this function',
-// 	keys: [],
-// 	type: 'singleObj'
-// };
-
-// var dummyData = [{
-// 	a: ['1', '2', '3'],
-// 	b: ['4', '5', '6'],
-// }];
-
-// some examples
-// console.log('applied elem', applyPipe(dummyData, dummyUserFilter, true));
-// console.log('applied arr', applyPipe(dummyData, dummyUserFilter2, true));
-// console.log('applied obj', applyPipe(dummyData, dummyUserFilter3, true));
-
-
-///// they can choose the kind of function they are writing - singleArr, multiObj, etc.
-	// they will be given a different starting point based on that
-
-
-
 // exports
 module.exports = getPipeData;
